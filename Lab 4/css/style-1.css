@@ -1,0 +1,41 @@
+.class-1_1, .class-2_1{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(14, 214, 214);
+    margin-top: 30px;
+    padding:10px;
+    border: solid grey;
+    border-width: 15px 15px 15px 15px;
+}
+.class-3_1, .class-4_1{
+    width:230px;
+    height:230px;
+    background-color: brown;
+    margin-top: 45px;
+    padding: 15px;
+    border: 20px solid rgb(4, 43, 117);
+    text-decoration: rgb(11, 175, 66);
+}
+*{
+    font-size: 25pt;
+}
+.class-14 li:nth-child(2n+1){
+    background-color: rgba(0, 0, 0, 0.39);
+}
+
+#id-7~li{
+    color: green;
+}
+.class-227 li:hover{
+    color: moccasin;
+}
+li:before{
+    content: ">";
+}
+.class-228 li:before{
+    background-color: darkorange;
+    content: "~";
+}
+.class-227{
+    margin-left: 50px;
+}
